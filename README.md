@@ -14,4 +14,11 @@ Plus simplement, le terme CRUD résume les fonctions qu’un utilisateur a besoi
  # Clonez ce projet 
 Il est maintenant temps de créer votre répertoire de travail.
 Une fois le répertoire créé, il vous faudra cloner le code. À partir de votre répertoire de travail, entrez la commande ci-dessous :
-- npm 
+- git clone https://github.com/azejs/zizo-express-crud.git
+- npm install 
+- npm run dev
+# Test API: Comment tester son API avec les tests Postman
+si vous voulez tester les api Reset , il obligé configurer 
+Dans l'interface, Postman propose l'onglet "Tests". On peut s'en servir pour définir des variables Postman à l'issue d'une requête et pour effectuer des assertions dessus: par example 
+- ajouter le chemin que vous voulez  et choisir leur type soit : get/post/put/delete
+http://localhost:4000/chambre
